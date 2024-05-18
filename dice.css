@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #blurred-background {
+    background: url("360_F_460077135_4MB32u4fUP5tKdqFTFTEdj0S9rjkaCFI.jpg");
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    filter: blur(5px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #container {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6em;
+    font-size: 2rem;
+    color: rgb(136, 237, 255);
+    position: relative;
+    z-index: 1;
+  }
+  
+  #reset {
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-color: rgb(141, 212, 237);
+    background-color: rgb(126, 236, 236);
+    color: rgb(2, 2, 67);
+    cursor: pointer;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 0.7em;
+  }
+  
+  #roll_dice {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-color: rgb(141, 212, 237);
+    background-color: rgb(126, 236, 236);
+    color: rgb(2, 2, 67);
+    cursor: pointer;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 0.7em;
+  }
+  
+  button:hover {
+    background-color: rgb(26, 236, 236);
+  }
+  
+  input {
+    font-size: 1.5rem;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #container {
+      padding-top: 3em;
+      font-size: 1.5rem;
+    }
+    
+    input {
+      width: 100px;
+    }
+    
+    button, input[type="reset"] {
+      margin-top: 15px;
+    }
+  }
