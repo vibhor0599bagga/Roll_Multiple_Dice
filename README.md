@@ -1,2 +1,2 @@
-# dice_roll-
-A extremely basic multiple Dace Rolling webpage 
+# Roll_Multiple_Dice
+An extremely basic multiple Dice Rolling webpage...
