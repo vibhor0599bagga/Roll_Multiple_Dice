@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="dice.css">
+</head>
+<body>
+    <div id="blurred-background"></div>
+    <div id="container">
+        <h1>Dice Roller</h1>
+        <label>#No. of Dice:</label>
+        <input type="number" id="numOfDice" value="1" min="1">
+        <br>
+        <button id="roll_dice" onclick="rollDice()">Roll Dice</button>
+        <input type="reset" id="reset" value="Reset" onClick="window.location.reload()">
+        <div id="diceResult"></div>
+    </div>
+
+    <script src="dice.js"></script>
+</body>
+</html>
